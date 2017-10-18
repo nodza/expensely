@@ -1,0 +1,14 @@
+.option {
+  display: flex;
+  justify-content: space-between;
+  padding: $medium-size;
+  border-bottom: solid 0.1rem lighten($overcast-gray, 20%);
+}
+
+.option__text {
+  color: $battleship-gray;
+  font-weight: 500;
+  font-size: 2rem;
+  margin: 0;
+  word-break: break-all;
+}
