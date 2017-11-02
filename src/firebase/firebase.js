@@ -16,13 +16,13 @@ const database = firebase.database();
 export { firebase, database as default };
 
 
-database.ref('expenses').on('value', (snapshot) => {
-  const expenses = [];
-  snapshot.forEach((childSnapshot) => {
-    expenses.push({
-      id: childSnapshot.key,
-      ...childSnapshot.val()
-    });
-  });
-  console.log(expenses);
-});
+// database.ref('expenses').on('value', (snapshot) => {
+//   const expenses = [];
+//   snapshot.forEach((childSnapshot) => {
+//     expenses.push({
+//       id: childSnapshot.key,
+//       ...childSnapshot.val()
+//     });
+//   });
+//   console.log(expenses);
+// });

@@ -8,7 +8,7 @@ exports[`should render EditExpense correctly 1`] = `
         "amount": 8500,
         "createdAt": 345600000,
         "description": "Software",
-        "id": 3,
+        "id": "3",
         "note": "",
       }
     }
