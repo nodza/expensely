@@ -17,7 +17,7 @@ const jsx = (
   <Provider store={store}>
     <AppRouter />
   </Provider>
-)
+);
     
 ReactDOM.render(<p>Loading...</p>, document.getElementById('app'));
 
