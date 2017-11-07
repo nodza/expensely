@@ -1,37 +1,21 @@
-.big-button {
-  background: $tomato-red;
-  border: none;
-  border-bottom: solid .8rem darken($tomato-red, 10%);
-  margin-bottom: $large-size;
-  width: 100%;
-  height: 6.0rem;
-  font-size: $large-size;
-  font-weight: bold;
-  color: #FFFFFF;
-  border-radius: 0.4rem;
-  // border-bottom: .6rem solid lighten($do-blue, 30%);
-}
-
-.big-button:disabled {
-  opacity: .5;
-}
-
 .button {
-  background: $tomato-red;
+  background: $primary;
   border: none;
-  border-bottom: solid .4rem darken($tomato-red, 10%);
-  color: #FFFFFF;
-  font-weight: 500;
-  padding: $small-size;
   border-radius: 0.4rem;
+  color: #FFFFFF;
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1;
+  padding: $small-size;
+  text-decoration: none;
 }
 
-.button--link {
+.button__link {
   background: none;
-  border: none;
-  color: $salmon-red;
-  background: $smoky-gray;
-  border-radius: 0.2rem;
-  padding: 0.7rem;
-  border-bottom: solid 0.3rem $light-gray;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+
+.button:disabled {
+  opacity: .5;
 }

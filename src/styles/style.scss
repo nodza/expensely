@@ -1,2 +1,9 @@
-@import './base/_settings';
-@import './base/_base';
+@import './base/settings';
+@import './base/base';
+@import './components/box-layout.scss';
+@import './components/button.scss';
+@import './components/container.scss';
+@import './components/header.scss';
+@import './components/page-header.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Nunito|Open+Sans');

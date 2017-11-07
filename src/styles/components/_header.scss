@@ -1,30 +1,25 @@
 .header {
-  background: #FFFFFF;
-  color: $tomato-red;
-  margin-bottom: $small-size;
-  padding: $small-size 0;
-  border-bottom: solid 0.1rem $overcast-gray;
+  background: $success;
 }
 
 .header__title {
+  color: #FFF;
   font-size: $large-size;
   margin: 0;
+  text-decoration: none;
+  h2 {
+    margin: 0;
+  }
 }
 
-.header__subtitle {
-  color: $light-gray;
-  font-size: $medium-size;
-  font-weight: 500;
-  margin: 0;
+.header__content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (min-width: $desktop-breakpoint) {
   .header {
-    padding: $medium-size 0;
-    margin-bottom: $large-size;
-  }
-
-  .header__subtitle {
-    margin-bottom: $large-size;
+    margin-bottom: 0;
   }
 }
