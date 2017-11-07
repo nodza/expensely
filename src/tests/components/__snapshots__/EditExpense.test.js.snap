@@ -2,23 +2,40 @@
 
 exports[`should render EditExpense correctly 1`] = `
 <div>
-  <ExpenseForm
-    expense={
-      Object {
-        "amount": 8500,
-        "createdAt": 345600000,
-        "description": "Software",
-        "id": "3",
-        "note": "",
-      }
-    }
-    onSubmit={[Function]}
-  />
-  <br />
-  <button
-    onClick={[Function]}
+  <div
+    className="page-header"
   >
-    Delete Expense
-  </button>
+    <div
+      className="container"
+    >
+      <button
+        className="button__delete pull-right"
+        onClick={[Function]}
+      >
+        Delete
+      </button>
+      <h1
+        className="page-header__title"
+      >
+        Edit Expense
+      </h1>
+    </div>
+  </div>
+  <div
+    className="container"
+  >
+    <ExpenseForm
+      expense={
+        Object {
+          "amount": 8500,
+          "createdAt": 345600000,
+          "description": "Software",
+          "id": "3",
+          "note": "",
+        }
+      }
+      onSubmit={[Function]}
+    />
+  </div>
 </div>
 `;
