@@ -10,6 +10,19 @@
   text-decoration: none;
 }
 
+.button__default {
+  @extend .button;
+  background: $light;
+  color: $dark;
+  margin-left: $small-size;
+}
+
+.button__delete {
+  @extend .button;
+  background: $light;
+  color: $danger;
+}
+
 .button__link {
   background: none;
   color: #FFFFFF;
